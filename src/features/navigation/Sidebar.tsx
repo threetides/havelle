@@ -45,14 +45,15 @@ export const Sidebar: FC = () => {
       <div className="flex flex-col">
         {boards.map((board) => {
           return (
-            <Link key={board.id} to={`/${board.id}`} className="group/link">
-              <Button
-                variant="ghost"
-                className="justify-start w-full group-data-[status=active]/link:bg-muted"
-              >
-                <p className="truncate">{board.name}</p>
-              </Button>
-            </Link>
+            <Button
+              variant="ghost"
+              className="justify-start w-full group-data-[status=active]/link:bg-muted"
+              render={
+                <Link key={board.id} to={`/${board.id}`} className="group/link">
+                  <p className="truncate">{board.name}</p>
+                </Link>
+              }
+            ></Button>
           )
         })}
       </div>
