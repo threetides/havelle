@@ -37,10 +37,10 @@ export const Sidebar: FC = () => {
   }
 
   return (
-    <nav className="bg-sidebar p-4 w-52 flex flex-col gap-4">
+    <nav className="bg-sidebar p-4 w-52 flex flex-col gap-4 border-r border-border-sidebar">
       <Link to="/" className="flex items-center">
         <img src={favicon} alt="havelle favicon" className="h-8" />
-        <p className="pl-2 text-2xl">havelle</p>
+        <p className="pl-2 text-2xl">Havelle</p>
       </Link>
       <div className="flex flex-col">
         {boards.map((board) => {

@@ -67,11 +67,11 @@
   --border: oklch(0.92 0.004 286.32);
   --input: oklch(0.92 0.004 286.32);
   --ring: oklch(0.705 0.015 286.067);
-  --chart-1: oklch(0.94 0.008 90);
-  --chart-2: oklch(0.76 0.1 10);
-  --chart-3: oklch(0.64 0.025 65);
-  --chart-4: oklch(0.5 0.015 250);
-  --chart-5: oklch(0.4 0.012 250);
+  --chart-1: oklch(0.94 0.03 15);
+  --chart-2: oklch(0.87 0.065 10);
+  --chart-3: oklch(0.8 0.1 8);
+  --chart-4: oklch(0.72 0.022 65);
+  --chart-5: oklch(0.63 0.015 255);
   --radius: 0.625rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.141 0.005 285.823);
@@ -102,11 +102,11 @@
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.552 0.016 285.938);
-  --chart-1: oklch(0.94 0.008 90);
-  --chart-2: oklch(0.76 0.1 10);
-  --chart-3: oklch(0.64 0.025 65);
-  --chart-4: oklch(0.5 0.015 250);
-  --chart-5: oklch(0.4 0.012 250);
+  --chart-1: oklch(0.94 0.03 15);
+  --chart-2: oklch(0.87 0.065 10);
+  --chart-3: oklch(0.8 0.1 8);
+  --chart-4: oklch(0.72 0.022 65);
+  --chart-5: oklch(0.63 0.015 255);
   --sidebar: oklch(0.21 0.006 285.885);
   --sidebar-foreground: oklch(0.985 0 0);
   --sidebar-primary: oklch(0.685 0.169 237.323);
@@ -129,34 +129,42 @@
   }
 }
 
+.theme-threetides {
+  --chart-1: oklch(0.94 0.026 236);
+  --chart-2: oklch(0.87 0.062 240);
+  --chart-3: oklch(0.8 0.095 244);
+  --chart-4: oklch(0.72 0.105 248);
+  --chart-5: oklch(0.63 0.1 252);
+}
+
 .theme-gonet {
-  --chart-1: oklch(0.88 0.12 205);
-  --chart-2: oklch(0.72 0.13 222);
-  --chart-3: oklch(0.6 0.11 232);
-  --chart-4: oklch(0.5 0.12 252);
-  --chart-5: oklch(0.4 0.07 228);
+  --chart-1: oklch(0.94 0.03 200);
+  --chart-2: oklch(0.87 0.065 203);
+  --chart-3: oklch(0.8 0.095 206);
+  --chart-4: oklch(0.72 0.105 210);
+  --chart-5: oklch(0.63 0.1 214);
 }
 
 .theme-multe {
-  --chart-1: oklch(0.88 0.11 85);
-  --chart-2: oklch(0.78 0.15 65);
-  --chart-3: oklch(0.68 0.17 48);
-  --chart-4: oklch(0.58 0.17 35);
-  --chart-5: oklch(0.46 0.13 30);
+  --chart-1: oklch(0.94 0.035 95);
+  --chart-2: oklch(0.87 0.075 86);
+  --chart-3: oklch(0.8 0.105 77);
+  --chart-4: oklch(0.72 0.12 68);
+  --chart-5: oklch(0.63 0.125 60);
 }
 
 .theme-havelle {
-  --chart-1: oklch(0.94 0.008 90);
-  --chart-2: oklch(0.76 0.1 10);
-  --chart-3: oklch(0.64 0.025 65);
-  --chart-4: oklch(0.5 0.015 250);
-  --chart-5: oklch(0.4 0.012 250);
+  --chart-1: oklch(0.94 0.03 15);
+  --chart-2: oklch(0.87 0.065 10);
+  --chart-3: oklch(0.8 0.1 8);
+  --chart-4: oklch(0.72 0.022 65);
+  --chart-5: oklch(0.63 0.015 255);
 }
 
 .theme-tideauth {
-  --chart-1: oklch(0.88 0.11 160);
-  --chart-2: oklch(0.74 0.13 158);
-  --chart-3: oklch(0.62 0.12 162);
-  --chart-4: oklch(0.5 0.1 166);
-  --chart-5: oklch(0.4 0.07 170);
+  --chart-1: oklch(0.94 0.03 302);
+  --chart-2: oklch(0.87 0.065 306);
+  --chart-3: oklch(0.8 0.095 310);
+  --chart-4: oklch(0.72 0.105 314);
+  --chart-5: oklch(0.63 0.1 318);
 }
