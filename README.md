@@ -1,35 +1,39 @@
-# React + TypeScript + Vite
+# Havelle
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A local-first, lightweight kanban board. Live at [havelle.pages.dev](https://havelle.pages.dev).
 
-Currently, two official plugins are available:
+> [!NOTE]
+> Under construction. The frontend is being rebuilt from scratch, and for now it only shows a placeholder page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What it does
 
-## React Compiler
+- **Boards** you can create, rename and delete, as many as you need.
+- **Local-first**: your boards are stored in your browser, with no account and no server.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Stack
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- React 19 with the React Compiler
+- TypeScript
+- Tailwind CSS v4
+- shadcn/ui on Base UI
+- [Vite+](https://viteplus.dev) and pnpm
 
-## Expanding the Oxlint configuration
+## Getting started
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```sh
+vp install
+vp dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Commands
+
+| Command      | Description                  |
+| ------------ | ---------------------------- |
+| `vp dev`     | Start the dev server         |
+| `vp build`   | Build for production         |
+| `vp preview` | Preview the production build |
+| `vp lint`    | Lint the project             |
+
+## Part of Threetides
+
+Havelle is one of the projects from [Threetides](https://threetides.dev), an independent studio in Norway.
